@@ -1,9 +1,17 @@
 var express = require('express'),
     app = express();
+    app.use(express.static('client'));
+    app.listen(1025);
+    app.set('view engine','hbs');
+    app.set('views','server/views');
+    app.get('/', function(req,res){
+    	res.render('index',{name:'index'},function(err,html){});
+    });
 
 // carregar "banco de dados" (data/jogadores.json e data/jogosPorJogador.json)
 // dica: 3-4 linhas de código (você deve usar o módulo de filesystem (fs))
 var db = {
+
 };
 
 

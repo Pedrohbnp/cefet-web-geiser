@@ -1,0 +1,23 @@
+{
+  "name": "geiser",
+  "version": "1.0.0",
+  "description": "um cadastrador de jogos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pedrohbnp/cefet-web-geiser.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pedrohbnp/cefet-web-geiser/issues"
+  },
+  "homepage": "https://github.com/Pedrohbnp/cefet-web-geiser#readme",
+  "dependencies": {
+    "express": "latest",
+    "hbs": "^3.1.0"
+  }
+}
